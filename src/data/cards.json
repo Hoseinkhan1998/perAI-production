@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "title": "Task",
+    "description": "مدیریت و پیگیری وظایف فردی و تیمی",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 2,
+    "title": "Timesheet",
+    "description": "ثبت و پیگیری ساعات کاری توسط کارمندان و مدیریت میزان کار انجام‌شده",
+    "type": "HumanResources",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 3,
+    "title": "Meeting",
+    "description": "ایجاد و اطلاع رسانی جلسات حضوری و غیر حضوری",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 4,
+    "title": "Project",
+    "description": "مدیریت پروژه‌ها، وظایف و مایلستون‌ها",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 5,
+    "title": "People",
+    "description": "اطلاعات مربوط به کارمندان",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 6,
+    "title": "petty cash",
+    "description": "مدیریت هزینه‌های کوچک روزمره",
+    "type": "Financialmanagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 7,
+    "title": "Product",
+    "description": "خرید و فروش و مدیریت محصولات",
+    "type": "Production",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 8,
+    "title": "Invoice",
+    "description": "مدیریت صورت‌حساب‌ها و پرداخت‌ها",
+    "type": "sells",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 9,
+    "title": "Watch Tower",
+    "description": "نظارت مدیر بر فعالیت‌ کاربران ",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 10,
+    "title": "Coin Master",
+    "description": "خرید و ثبت پیشنهادات روزمره",
+    "type": "HumanResources",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 11,
+    "title": "Salary",
+    "description": "مدیریت ساعات کاری کارمندان و محاسبه حقوق و دستمزد",
+    "type": "HumanResources",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 12,
+    "title": "Inventory",
+    "description": "مدیریت موجودی کالاها، سفارش‌ها و سطح ذخایر",
+    "type": "Production",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 13,
+    "title": "Users and Permissions",
+    "description": "ایجاد محدوده دسترسی برای کاربران",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 14,
+    "title": "Helpcenter",
+    "description": "اصلاح مشکلات گزارش شده توسط کاربران",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 15,
+    "title": "CRM",
+    "description": "ارتباط با مشتریان و مدیریت فروش",
+    "type": "sells",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 16,
+    "title": "Accounting",
+    "description": "مدیریت تراکنش‌های مالی و گزارش‌ها",
+    "type": "Financialmanagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 17,
+    "title": "Labratoire",
+    "description": "ثبت و مدیریت تست‌ها، نمونه‌ها و نتایج آزمایشگاهی",
+    "type": "Production",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 18,
+    "title": "Assets",
+    "description": "ابزاری برای مدیریت دارای های ثابت سازمان",
+    "type": "Financialmanagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 19,
+    "title": "CMMS",
+    "description": "سیستمی یکپارجه برای مدیریت, نگهداری و تعمیرات تجهیزات",
+    "type": "Production",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 20,
+    "title": "Rental",
+    "description": "مدیریت هوشمند اجازه کالاها و تجهیزات",
+    "type": "sells",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 21,
+    "title": "Mailbox",
+    "description": "مدیریت پیام‌ها و مکاتبات اینترنی در بستری امن",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 22,
+    "title": "Chat",
+    "description": "بستری ساده و امن برای گفت و گو های درون سازمانی",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  },
+  {
+    "id": 23,
+    "title": "CMS",
+    "description": "فضایی ساده و یکپارچه برای ایجاد, ویرایش و انتشار انواع محتوا",
+    "type": "PerformanceManagement",
+    "image": "/images/ModuleDetails/People/peopleimage1.png"
+  }
+]
