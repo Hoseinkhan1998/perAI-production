@@ -67,15 +67,15 @@ const menu = ref([
 
 <template>
   <!-- desktop version -->
-  <div class="hidden lg:flex flex-row justify-between w-full mt-10 items-center px-5">
+  <div class="hidden lg:flex flex-row  bg-neutral-100 justify-between w-full pt-8 px-10">
     <!-- logo -->
-    <div class="bg-neutral-100 px-2 py-1 rounded-lg">
+    <div class=" rounded-lg pb-5">
       <img src="/images/logo.png" class="h-10 w-20" alt="" />
     </div>
     <!-- menu -->
     <div class="flex gap-10">
       <div v-for="m in menu" :key="m">
-        <router-link class="hover-underline cursor-pointer capitalize text-xl font-semibold" :to="m.path">{{ m.name }}</router-link>
+        <router-link class="hover-underline cursor-pointer capitalize text-xl mt-2 font-semibold text-black" :to="m.path">{{ m.name }}</router-link>
       </div>
     </div>
   </div>
