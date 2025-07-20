@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div class="bg-neutral-800 flex flex-col gap-5 justify-center items-center py-10 text-neutral-100">
+  <div class="bg-neutral-800 flex flex-col gap-5 justify-center items-center py-10 text-neutral-100 -mt-[30vh]">
     <div class="px-5 py-1 rounded-lg">
       <img src="/images/perAI-white Logo.png" class="h-20 w-30" alt="" />
     </div>

@@ -10,6 +10,7 @@ import BlogsCard from "./BlogsCard.vue";
 import OurTeamMob from "../HomePageMobile/OurTeamMob.vue";
 import HeaderSection from "./HeaderSection.vue";
 import HeaderSectionMob from "../HomePageMobile/HeaderSectionMob.vue";
+import ContactUs from "../ContactUs.vue";
 
 const emit = defineEmits(["handleDisplay"]);
 
@@ -43,7 +44,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="grid grid-cols-12 mb-36">
+  <div class="grid grid-cols-12">
     <div class="col-span-full lg:block hidden -mt-24">
       <HeaderSection @handleDisplay="handleDisplay" />
     </div>
@@ -68,9 +69,9 @@ onUnmounted(() => {
     <!-- <div class="col-span-full lg:hidden block mt-36">
       <OurTeamMob @handleDisplay="handleDisplay" />
     </div> -->
-    <!-- <div class="col-span-full lg:block hidden mt-36">
-      <LastNews @handleDisplay="handleDisplay" />
-    </div> -->
+    <div class="col-span-full lg:block hidden mt-36">
+      <ContactUs @handleDisplay="handleDisplay" />
+    </div>
     <!-- <div class="col-span-full lg:hidden block mt-36">
       <LastNewsMob @handleDisplay="handleDisplay" />
     </div> -->
