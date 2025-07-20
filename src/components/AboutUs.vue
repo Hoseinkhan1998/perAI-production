@@ -2,7 +2,7 @@
 import { ref, onMounted, onUnmounted } from "vue";
 import HeaderSection from "./HomePage/HeaderSection.vue";
 import HeaderSectionMob from "./HomePageMobile/HeaderSectionMob.vue";
-import OurTeam from "./HomePage/OurTeam.vue";
+import OurTeam from "./HomePage/BlogsCard.vue";
 import OurTeamMob from "./HomePageMobile/OurTeamMob.vue";
 
 const emit = defineEmits(["handleDisplay"]);

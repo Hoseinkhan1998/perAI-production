@@ -6,12 +6,10 @@ import OurModules from "./OurModules.vue";
 import OurModulesMob from "../HomePageMobile/OurModulesMob.vue";
 import OurCustomers from "./OurCustomers.vue";
 import OurCustomersMob from "../HomePageMobile/OurCustomersMob.vue";
-import OurTeam from "./OurTeam.vue";
+import BlogsCard from "./BlogsCard.vue";
 import OurTeamMob from "../HomePageMobile/OurTeamMob.vue";
 import HeaderSection from "./HeaderSection.vue";
 import HeaderSectionMob from "../HomePageMobile/HeaderSectionMob.vue";
-import Footer from "./Footer.vue";
-import Header from "./Header.vue";
 
 const emit = defineEmits(["handleDisplay"]);
 
@@ -58,15 +56,15 @@ onUnmounted(() => {
     <!-- <div class="col-span-full lg:hidden block mt-20 playtable">
       <OurCustomersMob @handleDisplay="handleDisplay" />
     </div> -->
-    <!-- <div class="col-span-full lg:block hidden mt-20">
+    <div class="col-span-full lg:block hidden mt-20">
       <OurModules @handleDisplay="handleDisplay" />
-    </div> -->
+    </div>
     <!-- <div class="col-span-full lg:hidden block mt-20">
       <OurModulesMob @handleDisplay="handleDisplay" />
     </div> -->
-    <!-- <div class="col-span-full lg:block hidden mt-36">
-      <OurTeam @handleDisplay="handleDisplay" />
-    </div> -->
+    <div class="col-span-full lg:block hidden mt-36">
+      <BlogsCard @handleDisplay="handleDisplay" />
+    </div>
     <!-- <div class="col-span-full lg:hidden block mt-36">
       <OurTeamMob @handleDisplay="handleDisplay" />
     </div> -->
