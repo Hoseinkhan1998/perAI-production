@@ -113,7 +113,7 @@ const customers = ref([
 
 <style scoped>
 .bg-cart {
-  background: #aa87fc;
-  background: linear-gradient(159deg, rgba(170, 135, 252, 1) 7%, rgba(119, 85, 230, 1) 28%, rgba(61, 27, 205, 1) 98%);
+background: #2A58FB;
+background: linear-gradient(137deg, rgba(42, 88, 251, 0.77) 9%, rgba(42, 88, 251, 1) 30%, rgba(42, 88, 251, 1) 68%);
 }
 </style>

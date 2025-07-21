@@ -5,7 +5,6 @@ import Blogs from "../components/HomePage/Blogs.vue";
 // import HomePageMob from "../components/HomePageMobile/HomePageMob.vue";
 import AboutUs from "../components/AboutUs.vue";
 import ContactUs from "../components/ContactUs.vue";
-import RemoteWork from "../components/RemoteWork.vue";
 
 const routes = [
   { path: "/", component: HomePage, name: "home" },
@@ -13,16 +12,35 @@ const routes = [
   { path: "/blogs", component: Blogs, name: "blogs" },
   { path: "/aboutus", component: AboutUs, name: "aboutus" },
   { path: "/contact", component: ContactUs, name: "contact" },
-  { path: "/remotework", component: RemoteWork, name: "remotework" },
 ];
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    // همیشه به بالای صفحه بروید
-    return { top: 0 };
-  },
+  if (to.hash) {
+    return {
+      el: to.hash,
+      behavior: 'smooth',
+      offset: { y: 60 } // اضافه کردن offset
+    };
+  }
+  if (to.name === 'aboutus') {
+    return { 
+      path: '/', 
+      hash: '#our-customers',
+      offset: { y: 60 }
+    };
+  }
+  if (to.name === 'contact') {
+    return { 
+      path: '/', 
+      hash: '#contact-us',
+      offset: { y: 60 }
+    };
+  }
+  return { top: 0 };
+},
 });
 
 export default router;

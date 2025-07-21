@@ -12,7 +12,7 @@ const router = useRouter();
       <div class="col-span-6">
         <p class="text-4xl font-semibold">
           Revolutionising Industries <br />
-          with Top <span class="text-transparent bg-gradient-to-l from-purple-300 to-purple-500 bg-clip-text">AI Consulting</span>
+          with Top <span class="text-transparent bg-gradient-to-l from-[#2a57fb67] to-[#2a58fb] bg-clip-text">AI Consulting</span>
         </p>
       </div>
       <div class="col-span-6 flex justify-end">

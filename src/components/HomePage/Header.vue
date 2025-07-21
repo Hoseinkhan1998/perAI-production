@@ -56,12 +56,34 @@ onUnmounted(() => {
 
 const isCollapsed = ref(false);
 
+const scrollToSection = (section) => {
+  const scrollToElement = (selector) => {
+    const element = document.querySelector(selector);
+    if (element) {
+      const offset = 60; 
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      window.scrollTo({
+        top: elementPosition - offset,
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  if (router.currentRoute.value.name !== 'home') {
+    router.push('/').then(() => {
+      setTimeout(() => scrollToElement(`.${section}`), 100);
+    });
+  } else {
+    scrollToElement(`.${section}`);
+  }
+};
+
 const menu = ref([
   { name: "home", path: "/" },
-  { name: "aboutUs", path: "" },
+  { name: "aboutUs", path: "", action: () => scrollToSection("our-customers") },
   { name: "products", path: "products" },
   { name: "blogs", path: "/blogs" },
-  { name: "contact", path: "" },
+  { name: "contact", path: "", action: () => scrollToSection("contact-us") },
 ]);
 </script>
 
@@ -69,13 +91,18 @@ const menu = ref([
   <!-- desktop version -->
   <div class="hidden lg:flex flex-row justify-between w-full pt-8 px-10">
     <!-- logo -->
-    <div class=" rounded-lg pb-5">
+    <div class="rounded-lg pb-5">
       <img src="/images/perAI-white Logo.png" class="h-10 w-20" alt="" />
     </div>
     <!-- menu -->
     <div class="flex gap-10">
-      <div v-for="m in menu" :key="m">
-        <router-link class="hover-underline cursor-pointer capitalize text-xl mt-2 font-semibold" :to="m.path">{{ m.name }}</router-link>
+      <div v-for="m in menu" :key="m.name">
+        <router-link v-if="m.path" class="hover-underline cursor-pointer capitalize text-xl mt-2 font-semibold" :to="m.path">
+          {{ m.name }}
+        </router-link>
+        <a v-else class="hover-underline cursor-pointer capitalize text-xl mt-2 font-semibold" @click="m.action">
+          {{ m.name }}
+        </a>
       </div>
     </div>
   </div>

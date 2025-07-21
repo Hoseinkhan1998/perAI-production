@@ -14,7 +14,7 @@ function handleDisplay(item) {
     <div class="text-neutral-100 flex items-center justify-center flex-col gap-5">
       <p class="text-[67px] text-center leading-snug font-bold">
         Explore Innovation with<br />
-        Expert <span class="text-transparent bg-gradient-to-l from-purple-200 to-purple-500 bg-clip-text">AI Consulting</span>
+        Expert <span class="text-transparent bg-gradient-to-l from-[#2a57fb67] to-[#2a58fb] bg-clip-text">AI Consulting</span>
       </p>
       <p class="text-center ">Unlock innovation with our AI consulting. We provide tailored solutions to optimize operations <br/> and enhance decision-making, helping you stay ahead in the market.</p>
       <!-- button -->

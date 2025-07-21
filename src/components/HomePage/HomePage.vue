@@ -2,7 +2,7 @@
 import { ref, onMounted, onUnmounted } from "vue";
 import LastNews from "./LastNews.vue";
 import LastNewsMob from "../HomePageMobile/LastNewsMob.vue";
-import OurModules from "./OurModules.vue";
+import OurProducts from "./OurProducts.vue";
 import OurModulesMob from "../HomePageMobile/OurModulesMob.vue";
 import OurCustomers from "./OurCustomers.vue";
 import OurCustomersMob from "../HomePageMobile/OurCustomersMob.vue";
@@ -51,14 +51,14 @@ onUnmounted(() => {
     <!-- <div class="col-span-full lg:hidden block -mt-24">
       <HeaderSectionMob @handleDisplay="handleDisplay" />
     </div> -->
-    <div class="col-span-full lg:block hidden mt-20 playtable">
+    <div id="our-customers" class="col-span-full lg:block hidden mt-20 playtable our-customers">
       <OurCustomers @handleDisplay="handleDisplay" />
     </div>
     <!-- <div class="col-span-full lg:hidden block mt-20 playtable">
       <OurCustomersMob @handleDisplay="handleDisplay" />
     </div> -->
     <div class="col-span-full lg:block hidden mt-20">
-      <OurModules @handleDisplay="handleDisplay" />
+      <OurProducts @handleDisplay="handleDisplay" />
     </div>
     <!-- <div class="col-span-full lg:hidden block mt-20">
       <OurModulesMob @handleDisplay="handleDisplay" />
@@ -69,7 +69,7 @@ onUnmounted(() => {
     <!-- <div class="col-span-full lg:hidden block mt-36">
       <OurTeamMob @handleDisplay="handleDisplay" />
     </div> -->
-    <div class="col-span-full lg:block hidden mt-36">
+    <div id="contact-us" class="col-span-full lg:block hidden mt-36 contact-us">
       <ContactUs @handleDisplay="handleDisplay" />
     </div>
     <!-- <div class="col-span-full lg:hidden block mt-36">
