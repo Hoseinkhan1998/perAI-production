@@ -1,15 +1,14 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
-import LastNews from "./LastNews.vue";
-import LastNewsMob from "../HomePageMobile/LastNewsMob.vue";
+// import LastNewsMob from "../HomePageMobile/LastNewsMob.vue";
 import OurProducts from "./OurProducts.vue";
-import OurModulesMob from "../HomePageMobile/OurModulesMob.vue";
+// import OurModulesMob from "../HomePageMobile/OurModulesMob.vue";
 import OurCustomers from "./OurCustomers.vue";
-import OurCustomersMob from "../HomePageMobile/OurCustomersMob.vue";
+// import OurCustomersMob from "../HomePageMobile/OurCustomersMob.vue";
 import BlogsCard from "./BlogsCard.vue";
-import OurTeamMob from "../HomePageMobile/OurTeamMob.vue";
+// import OurTeamMob from "../HomePageMobile/OurTeamMob.vue";
 import HeaderSection from "./HeaderSection.vue";
-import HeaderSectionMob from "../HomePageMobile/HeaderSectionMob.vue";
+// import HeaderSectionMob from "../HomePageMobile/HeaderSectionMob.vue";
 import ContactUs from "../ContactUs.vue";
 
 const emit = defineEmits(["handleDisplay"]);
