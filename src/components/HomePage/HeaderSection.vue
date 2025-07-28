@@ -13,29 +13,29 @@ function handleDisplay(item) {
 
 <template>
   <!-- عکس اصلی -->
-  <div class="flex pt-[20vh] flex-col bg-cover bg-center" :style="{ backgroundImage: `url(/images/landing.png)`, height: '110vh' }">
+  <div class="flex pt-[20vh] flex-col bg-cover bg-center relative" :style="{ backgroundImage: `url(/images/landing.png)`, height: '110vh', minHeight: '600px' }">
     <div class="text-neutral-100 w-full flex flex-col gap-5">
-      <p class="text-[67px] text-center leading-snug font-bold">
+      <p class="text-[67px] text-center leading-snug font-bold md:text-[80px] lg:text-[90px]">
         because each<span class="text-[#2A58FB]"> project</span><br />
         requires<span class="text-[#8400FF]"> specific</span> approach
       </p>
     </div>
-    <div class="flex text-white px-20 w-full justify-between">
-      <div class="flex flex-col gap-10">
-        <div class="floating floating-1">
-          <Icon1 />
-        </div>
-        <div class="floating floating-2 ps-20">
-          <Icon2 />
-        </div>
+    <div class="relative w-full h-full">
+      <!-- آیکون 1 - بالا چپ -->
+      <div class="absolute top-[25%] left-[15%] md:left-[20%] lg:left-[25%] culg:left-[25%] transform -translate-x-1/2 -translate-y-1/2 floating floating-1">
+        <Icon1 />
       </div>
-      <div class="flex flex-col gap-10">
-        <div class="floating floating-3 ps-20">
-          <Icon3 />
-        </div>
-        <div class="floating floating-4">
-          <Icon4 />
-        </div>
+      <!-- آیکون 2 - پایین چپ -->
+      <div class="absolute bottom-[25%] left-[15%] md:left-[20%] lg:left-[25%] culg:left-[25%] transform -translate-x-1/2 translate-y-1/2 floating floating-2 ps-20">
+        <Icon2 />
+      </div>
+      <!-- آیکون 3 - بالا راست -->
+      <div class="absolute top-[25%] right-[15%] md:right-[20%] lg:right-[25%] culg:right-[25%] transform translate-x-1/2 -translate-y-1/2 floating floating-3 ps-20">
+        <Icon3 />
+      </div>
+      <!-- آیکون 4 - پایین راست -->
+      <div class="absolute bottom-[25%] right-[15%] md:right-[20%] lg:right-[25%] culg:right-[25%] transform translate-x-1/2 translate-y-1/2 floating floating-4">
+        <Icon4 />
       </div>
     </div>
   </div>
@@ -73,6 +73,25 @@ function handleDisplay(item) {
   }
   100% {
     transform: translateY(0px) translateX(0px);
+  }
+}
+
+@media (min-width: 1536px) { /* Tailwind's 2xl breakpoint */
+  .floating-1 {
+    top: 25% !important;
+    left: 25% !important;
+  }
+  .floating-2 {
+    bottom: 25% !important;
+    left: 25% !important;
+  }
+  .floating-3 {
+    top: 25% !important;
+    right: 25% !important;
+  }
+  .floating-4 {
+    bottom: 25% !important;
+    right: 25% !important;
   }
 }
 </style>
