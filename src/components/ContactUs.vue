@@ -95,8 +95,8 @@ const props = defineProps({});
     </transition>
   </div>
   <div
-    class="flex ps-20 text-white rounded-xl items-center justify-center bg-cover bg-center mx-20 relative"
-    :style="{ backgroundImage: `url(images/contatus.png)`, height: '50vh' }">
+    class="flex ps-20 text-white rounded-xl mb-[-200px] items-center justify-center bg-cover bg-center mx-20 relative"
+    :style="{ backgroundImage: `url(images/contatus.png)`, height: '350px' }">
     <div class="grid grid-cols-12 items-center">
       <div class="col-span-7 flex gap-4 flex-col">
         <p>Ready to Innovate?</p>
@@ -105,7 +105,7 @@ const props = defineProps({});
       </div>
       <div class="col-span-1"></div>
       <!-- form -->
-      <div class="col-span-4 h-[60vh] pe-10">
+      <div class="col-span-4 h-[430px] pe-10">
         <div class="rounded-xl h-full bg-neutral-100 shadow-none border-purple-700 border-solid border-[1px]" style="box-shadow: 0 -8px 24px -8px rgba(0, 0, 0, 0.15), 0 8px 24px -8px rgba(0, 0, 0, 0.15)">
           <form @submit.prevent="submitForm" class="flex flex-col w-full gap-2 px-6 pt-10">
             <!-- name -->
@@ -145,7 +145,7 @@ const props = defineProps({});
       </div>
     </div>
   </div>
-  <div class="w-full bg-neutral-800 -mt-[30vh] h-[70vh]"></div>
+  <div class="w-full bg-neutral-800  h-[200px] 3xl:rounded-t-xl"></div>
 </template>
 
 <style scoped>

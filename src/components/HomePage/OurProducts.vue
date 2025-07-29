@@ -25,16 +25,16 @@ const router = useRouter();
       <div class="col-span-4">
         <div
           class="flex cursor-pointer rounded-xl hover:scale-110 transition-all duration-300 justify-center bg-cover bg-center inset-0 relative"
-          :style="{ backgroundImage: `url(images/LastNews/Rectangle.png)`, height: '40vh' }">
-          <div class="absolute inset-0 opacity-100 bg-[#0000003e] rounded-xl" :style="{ height: '40vh' }"></div>
+          :style="{ backgroundImage: `url(images/LastNews/Rectangle.png)`, height: '400px' }">
+          <div class="absolute inset-0 opacity-100 bg-[#0000003e] rounded-xl" :style="{ height: '400px' }"></div>
           <p class="text-center font-semibold text-xl text-neutral-100 opacity-100 absolute z-20 bottom-4">AI Based Chatbot</p>
         </div>
       </div>
       <div class="col-span-4">
         <div
           class="flex cursor-pointer rounded-xl hover:scale-110 transition-all duration-300 justify-center bg-cover bg-center inset-0 relative"
-          :style="{ backgroundImage: `url(images/LastNews/Rectangle2.png)`, height: '60vh' }">
-          <div class="absolute inset-0 opacity-100 bg-[#0000003e] rounded-xl" :style="{ height: '60vh' }"></div>
+          :style="{ backgroundImage: `url(images/LastNews/Rectangle2.png)`, height: '400px' }">
+          <div class="absolute inset-0 opacity-100 bg-[#0000003e] rounded-xl" :style="{ height: '400px' }"></div>
           <p class="text-center font-semibold text-xl text-neutral-100 opacity-100 absolute z-20 bottom-4">
             AI-Powered Online Social <br />
             Casino Gaming Platform
@@ -44,8 +44,8 @@ const router = useRouter();
       <div class="col-span-4">
         <div
           class="flex cursor-pointer rounded-xl hover:scale-110 transition-all duration-300 justify-center bg-cover bg-center inset-0 relative"
-          :style="{ backgroundImage: `url(images/LastNews/Rectangle3.png)`, height: '40vh' }">
-          <div class="absolute inset-0 opacity-100 bg-[#0000003e] rounded-xl" :style="{ height: '40vh' }"></div>
+          :style="{ backgroundImage: `url(images/LastNews/Rectangle3.png)`, height: '400px' }">
+          <div class="absolute inset-0 opacity-100 bg-[#0000003e] rounded-xl" :style="{ height: '400px' }"></div>
           <p class="text-center font-semibold text-xl text-neutral-100 opacity-100 absolute z-20 bottom-4">A Platform for Safe Home Hunting</p>
         </div>
       </div>
