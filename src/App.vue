@@ -4,8 +4,8 @@ import Footer from "./components/HomePage/Footer.vue";
 </script>
 
 <template>
-  <div class=" bg-neutral-100 text-neutral-900">
-    <div class="grid grid-cols-12 relative">
+  <div class="bg-neutral-100 flex flex-col justify-center items-center text-neutral-900">
+    <div class="grid grid-cols-12 relative max-w-[1920px]">
       <div class="col-span-full z-20">
         <div class=" text-white h-[60px] flex items-center">
           <Header />

@@ -89,7 +89,7 @@ const menu = ref([
 
 <template>
   <!-- desktop version -->
-  <div class="hidden lg:flex flex-row justify-between w-full pt-8 px-10">
+  <div class="hidden md:flex flex-row justify-between w-full pt-8 px-10">
     <!-- logo -->
     <div class="rounded-lg pb-5">
       <img src="/images/perAI-white Logo.png" class="h-10 w-20" alt="" />
@@ -108,7 +108,7 @@ const menu = ref([
   </div>
 
   <!-- Mobile version -->
-  <div class="flex flex-col w-full justify-center items-center lg:hidden">
+  <div class="flex flex-col w-full justify-center items-center md:hidden">
     <div class="w-full">
       <div class="flex w-full justify-end">
         <!-- اعمال رنگ دینامیک به دکمه همبرگر -->

@@ -44,40 +44,40 @@ onUnmounted(() => {
 
 <template>
   <div class="grid grid-cols-12">
-    <div class="col-span-full lg:block hidden -mt-24">
+    <div class="col-span-full md:block hidden -mt-24">
       <HeaderSection @handleDisplay="handleDisplay" />
     </div>
-    <!-- <div class="col-span-full lg:hidden block -mt-24">
+    <!-- <div class="col-span-full md:hidden block -mt-24">
       <HeaderSectionMob @handleDisplay="handleDisplay" />
     </div> -->
-    <div id="our-customers" class="col-span-full lg:block hidden mt-20 playtable our-customers">
+    <div id="our-customers" class="col-span-full md:block hidden mt-20 playtable our-customers">
       <OurCustomers @handleDisplay="handleDisplay" />
     </div>
-    <!-- <div class="col-span-full lg:hidden block mt-20 playtable">
+    <!-- <div class="col-span-full md:hidden block mt-20 playtable">
       <OurCustomersMob @handleDisplay="handleDisplay" />
     </div> -->
-    <div class="col-span-full lg:block hidden mt-20">
+    <div class="col-span-full md:block hidden mt-20">
       <OurProducts @handleDisplay="handleDisplay" />
     </div>
-    <!-- <div class="col-span-full lg:hidden block mt-20">
+    <!-- <div class="col-span-full md:hidden block mt-20">
       <OurModulesMob @handleDisplay="handleDisplay" />
     </div> -->
-    <div class="col-span-full lg:block hidden mt-36">
+    <div class="col-span-full md:block hidden mt-36">
       <BlogsCard @handleDisplay="handleDisplay" />
     </div>
-    <!-- <div class="col-span-full lg:hidden block mt-36">
+    <!-- <div class="col-span-full md:hidden block mt-36">
       <OurTeamMob @handleDisplay="handleDisplay" />
     </div> -->
-    <div id="contact-us" class="col-span-full lg:block hidden mt-36 contact-us">
+    <div id="contact-us" class="col-span-full md:block hidden mt-36 contact-us">
       <ContactUs @handleDisplay="handleDisplay" />
     </div>
-    <!-- <div class="col-span-full lg:hidden block mt-36">
+    <!-- <div class="col-span-full md:hidden block mt-36">
       <LastNewsMob @handleDisplay="handleDisplay" />
     </div> -->
-    <!-- <div class="col-span-full lg:block hidden mt-36">
+    <!-- <div class="col-span-full md:block hidden mt-36">
       <OurCustomers @handleDisplay="handleDisplay" />
     </div>
-    <div class="col-span-full lg:hidden block mt-36">
+    <div class="col-span-full md:hidden block mt-36">
       <OurCustomersMob @handleDisplay="handleDisplay" />
     </div> -->
   </div>

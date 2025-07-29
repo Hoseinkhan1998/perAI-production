@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <div>
-    <svg width="212" height="257" viewBox="0 0 312 357" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="3xl:w-[300px] 3xl:h-[300px] 2xl:w-[270px] 2xl:h-[270px] xl:w-[240px] xl:h-[240px]  md:w-[200px] md:h-[200px]" viewBox="0 0 312 357" fill="none" xmlns="http://www.w3.org/2000/svg">
       <foreignObject x="0.828908" y="19.8683" width="310.327" height="336.566"
         ><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter: blur(10.13px); clip-path: url(#bgblur_0_0_321_clip_path); height: 100%; width: 100%"></div
       ></foreignObject>
